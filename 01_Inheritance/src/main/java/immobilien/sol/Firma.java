@@ -1,4 +1,4 @@
-package immobilien;
+package immobilien.sol;
 
 public class Firma {
     public static void main(String[] args) {

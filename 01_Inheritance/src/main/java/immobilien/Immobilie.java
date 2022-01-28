@@ -1,4 +1,4 @@
-package immobilien.sol;
+package immobilien;
 
 public class Immobilie {
     private String besitzer;
@@ -35,7 +35,12 @@ public class Immobilie {
         this.preis = preis;
     }
 
-	public void print() {
-		System.out.printf("Die Immobilie von %s aus dem Jahr %d ist %.2f Franken wert.\n", besitzer, baujahr, preis);
-	}
+    public void print() {
+        System.out.print("Die Immobilie von ");
+        System.out.print(besitzer);
+        System.out.print(" aus dem Jahr ");
+        System.out.print(baujahr);
+        System.out.print(" hat einen Wert von CHF ");
+        System.out.println(preis + ".");
+    }
 }

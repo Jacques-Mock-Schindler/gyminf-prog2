@@ -1,4 +1,4 @@
-package immobilien;
+package immobilien.sol;
 
 public class Wohnhaus extends Immobilie {
     private int wohnungen;
